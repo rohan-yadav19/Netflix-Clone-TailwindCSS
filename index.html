@@ -12,19 +12,27 @@
   <body>
     <div class="container">
       <!--Navbar-->
-      <div class="bg-zinc-900">
-        <img src="./assets/images/logo.png" />
-        <section>
-          <nav>Home</nav>
-          <nav>Home</nav>
-          <nav>Home</nav>
-          <nav>Home</nav>
-          <nav>Home</nav>
+      <div
+        class="bg-zinc-900/[0.5] p-3 flex items-center justify-between w-screen fixed z-10"
+      >
+        <section class="flex items-center">
+          <img class="w-28" src="./assets/images/logo.png" />
+          <section class="text-white flex ps-3">
+            <nav class="ps-3 text-xs cursor-pointer">Home</nav>
+            <nav class="ps-3 text-xs cursor-pointer">Home</nav>
+            <nav class="ps-3 text-xs cursor-pointer">Home</nav>
+            <nav class="ps-3 text-xs cursor-pointer">Home</nav>
+            <nav class="ps-3 text-xs cursor-pointer">Home</nav>
+          </section>
         </section>
-        <section>
+        <section class="text-white">
           <i class="bi bi-search"></i>
-          <i class="bi bi-bell"></i>
+          <i class="bi bi-bell ps-3"></i>
         </section>
+      </div>
+      <!--video-->
+      <div class-="w-screen relative">
+        <video src="./assets/video/video.mp4" muted autoplay loop></video>
       </div>
     </div>
   </body>
